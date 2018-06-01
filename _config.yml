@@ -13,6 +13,6 @@ paginate: 3
 # Links
 links:
   - title: "biz"
-    url: /biz
+    url: /biz/
   - title: "twt"
     url: http://twitter.com/hektowin
