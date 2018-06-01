@@ -23,14 +23,14 @@ title: Home
       {% if page == 2 %}
         <a class="page-link" href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">prv</a>
       {% else %}
-        <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">prv</a>
+        <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">önc</a>
       {% endif %}
     {% else %}
       <span class="page-link">prv</span>
     {% endif %}
 
     {% if paginator.next_page %}
-      <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">nxt</a>
+      <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">snr</a>
     {% else %}
       <span class="page-link">nxt</span>
     {% endif %}
